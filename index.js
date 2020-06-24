@@ -199,6 +199,7 @@ class Quiz {
                     let circle = document.querySelectorAll(".circle");
                     circle.forEach(x=> x.style.background="white");
                     clock(showAnswerOnExpiry);
+                    result.innerHTML="";
                 })
                 return ;
             }
