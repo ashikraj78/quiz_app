@@ -238,7 +238,7 @@ body{
 
 @media screen and (max-width:768px){
     .main{
-        width: 100%;
+        width: 98%;
         margin-top: 0;
         padding: .3rem;
     }
@@ -252,9 +252,11 @@ body{
         width: 27.5%;
     }
     .questionbody{
-        font-size: 1rem;
+        font-size: 1.1rem;
+        font-weight: 900;
     }
     .option{
         font-size: 1rem;
+        
     }
 }
