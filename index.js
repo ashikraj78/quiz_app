@@ -186,7 +186,6 @@ class Quiz {
                 result.innerHTML= `<h2>You score is ${scoreDisplay.innerText}</h2><button class="playagain" id="playagain">Play Again</button>`;
 
                 var playAgainBtn = (document.getElementById('playagain'));
-                console.log(playAgainBtn);
                 playAgainBtn.addEventListener('click', () => {
                     main.classList.remove('xyz');
                     this.activeQuestionIndex = 0;

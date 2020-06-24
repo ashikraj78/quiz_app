@@ -234,3 +234,25 @@ body{
     cursor: pointer;
     outline: 1px solid black;
 }
+
+
+@media screen and (max-width:768px){
+    .main{
+        width: 100%;
+    }
+    .nextquestion{
+        width: 69%;
+        height: 32rem;
+        top: 25.8%;
+        left: 31%;
+    }
+    .timer{
+        width: 27.5%;
+    }
+    .questionbody{
+        font-size: 1rem;
+    }
+    .option{
+        font-size: 1rem;
+    }
+}
